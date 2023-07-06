@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Store the current working directory
+current_dir=$(pwd)
+
+# Change to the previous directory
+cd -
+
+# Print the new working directory
+echo "$current_dir"
+
