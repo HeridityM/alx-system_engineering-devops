@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Create the directory
+mkdir /tmp/my_first_directory
+
+# Check if the directory was created successfully
+if [ -d /tmp/my_first_directory ]; then
+  echo "Directory created successfully."
+  # Print the file type using the 'file' command
+  file /tmp/my_first_directory
+else
+  echo "Failed to create the directory."
+fi
+
