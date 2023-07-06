@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Script to delete the "my_first_directory" in the "/tmp" directory
+
+DIRECTORY="/tmp/my_first_directory"
+
+# Check if the directory exists
+if [ -d "$DIRECTORY" ]; then
+    # Remove the directory
+    rm -rf "$DIRECTORY"
+    echo "Directory $DIRECTORY has been deleted."
+else
+    echo "Directory $DIRECTORY does not exist."
+fi
+
