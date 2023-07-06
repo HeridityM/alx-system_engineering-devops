@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Move files starting with uppercase letters to /tmp/u
+mv [A-Z]* /tmp/u
+
+
