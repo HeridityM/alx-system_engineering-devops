@@ -1,8 +1,2 @@
 #!/bin/bash
-
-# Find all files ending with '~' and delete them
-find . -name "*~" -type f -delete
-
-# Print a message indicating completion
-echo "Emacs backup files cleaned."
-
+rm *~
